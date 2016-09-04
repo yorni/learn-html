@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+</head>
+<body>
+<form action="/">
+
+    Name: <br>
+    <input type="text" name="name" ><br>
+
+    E-Mail: <br>
+    <input type="email" name="email" ><br>
+
+    Sex: <br>
+    <input type="radio" name="sex" value="male" title="Male" >Male
+    <input type="radio" name="sex" value="female" title="Female">Female <br>
+
+    Current status: <br>
+    <input type="checkbox" name="student">Student<br>
+    <input type="checkbox" name="employed">Employed<br>
+    <input type="checkbox" name="unemployed">Unemployed<br>
+
+    Month and Year of birth <br>
+    <select name="month" id="month">
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+        <option value="apr">April</option>
+    </select>
+
+    <select name="year" id="year">
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+    </select> <br>
+    Skills and technologies: <br>
+    <select size="10" multiple="multiple" name="technologies" id="technologies">
+        <optgroup label="Tech skills">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="git">Git</option>
+        </optgroup>
+
+        <optgroup label="Soft skills">
+            <option value="TM">Time management</option>
+            <option value="PRA">Proactivity</option>
+            <option value="TW">Teamwork</option>
+            <option value="LS">Leadership</option>
+        </optgroup>
+    </select> <br>
+
+    Photo <br>
+    <input type="file" name="photo"> <br>
+
+    Comments <br>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+
+    <input type="submit" name="Save" value="Save">
+
+
+
+
+
+</form>
+
+</body>
+</html>

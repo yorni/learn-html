@@ -1,0 +1,69 @@
+em {
+    background-color: green;
+    color: white;
+}
+
+div#allotment h2 {
+    color: orange;
+    font-weight: bold;
+
+}
+
+div#warehouse h2 {
+    color: blue;
+    font-weight: bold;
+}
+
+
+p:first-letter
+{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vegetables-list
+{
+    color: red;
+    font-weight: normal;
+
+}
+
+div#warehouse .fruits-list
+{
+    color: green;
+    font-weight: normal;
+}
+
+div#allotment .fruits-list{
+    color: grey;
+    font-weight: normal;
+}
+
+ul > li  {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr > td:nth-child(1) {
+    color: orange;
+    text-align: left;
+    background-color: white;
+
+}
+
+tbody {
+    text-align: center;
+    background-color: green;
+}
+
+h1 {
+    text-align: right;
+    color: orange;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+ul {
+    background: lightgray;
+}
+li {
+    display: inline-block;
+    color: violet;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+li.last, li.first {
+    margin: 5px;
+}
+
+li.last:hover, li.first:hover {
+    color: blueviolet;
+}
+
+li.first:before {
+    content: "<< ";
+}
+
+li.last:after {
+    content: " >>";
+}
+
+li.item {
+    display: inline-block;
+    border: solid grey 1px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+li.item:hover {
+    background: violet;
+    color: white;
+    border: solid violet 1px;
+
+}

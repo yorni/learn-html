@@ -1,0 +1,11 @@
+article > p:nth-child(2) {
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+article > p:last-child {
+    color: #999;
+}

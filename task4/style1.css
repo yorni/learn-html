@@ -1,0 +1,54 @@
+.menu {
+    width: 900px;
+    background: violet;
+    list-style: none;
+}
+
+
+li.mainmenuli {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Impact;
+
+}
+
+li.mainmenuli:hover {
+    background: grey;
+}
+
+li.mainmenuli:first-child {
+    margin-left: 50px;
+}
+
+li.mainmenuli:last-child {
+    float: right;
+}
+
+.menu2 {
+    left: -40px;
+    position: absolute;
+    width: 900px;
+    background: grey;
+    list-style: none;
+    position: relative;
+    display: none;
+}
+
+.menu2 li {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.menusublist:hover + .menu2{
+    display: inline-block;
+
+}
+
+.menu2:hover {
+    display: inline-block;
+}

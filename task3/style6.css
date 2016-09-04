@@ -1,0 +1,42 @@
+input  {
+   display: none;
+}
+
+input#red:checked ~ span.red  {
+     display: none;
+ }
+
+input#green:checked ~ span.green  {
+    display: none;
+}
+
+input#blue:checked ~ span.blue  {
+    display: none;
+}
+
+label[for="red"] {
+    color: red;
+}
+
+label[for="green"] {
+    color: green;
+}
+
+label[for="blue"] {
+    color: blue;
+}
+
+span.red {
+    color: white;
+    background: red;
+}
+
+span.blue {
+    color: white;
+    background: blue;
+}
+
+span.green {
+    color: white;
+    background: green;
+}
